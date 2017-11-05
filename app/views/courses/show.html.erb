@@ -1,0 +1,39 @@
+
+<p>
+  <strong>课程号:</strong>
+  <%= @course.course_id %>
+</p>
+
+<p>
+  <strong>课程名称:</strong>
+  <%= @course.course_name %>
+</p>
+
+<p>
+  <strong>课程类型:</strong>
+  <%= @course.course_type %>
+</p>
+
+<p>
+  <strong>学分:</strong>
+  <%= @course.credit %>
+</p>
+
+<p>
+  <strong>学时:</strong>
+  <%= @course.class_hour %>
+</p>
+
+<p>
+  <strong>教室:</strong>
+  <%= @course.room %>
+</p>
+
+<p>
+  <strong>限选人数:</strong>
+  <%= @course.max_num %>
+</p>
+
+<%= link_to '编辑', edit_course_path(@course) %> |
+<%= link_to '返回', courses_path %>
+<p id="notice"><%= notice %></p>

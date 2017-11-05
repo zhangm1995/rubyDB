@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  course_id: MyText
+  course_name: MyText
+  course_type: MyText
+  credit: 1
+  class_hour: 1
+  room: MyText
+  max_num: 1
+
+two:
+  course_id: MyText
+  course_name: MyText
+  course_type: MyText
+  credit: 1
+  class_hour: 1
+  room: MyText
+  max_num: 1

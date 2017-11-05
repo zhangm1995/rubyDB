@@ -1,0 +1,53 @@
+<%= form_with(model: course, local: true) do |form| %>
+  <% if course.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(course.errors.count, "error") %> prohibited this course from being saved:</h2>
+
+      <ul>
+      <% course.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    课程号 :  
+    <%= form.text_field :course_id, id: :course_course_id %>
+  </div>
+
+  <div class="field">
+    课程名称 : 
+    <%= form.text_field :course_name, id: :course_course_name %>
+  </div>
+
+  <div class="field">
+    课程类型 : 
+    <%= form.text_field :course_type, id: :course_course_type %>
+  </div>
+
+  <div class="field">
+    学分 :   
+    <%= form.number_field :credit, id: :course_credit %>
+  </div>
+
+  <div class="field">
+    学时 :   
+    <%= form.number_field :class_hour, id: :course_class_hour %>
+  </div>
+
+  <div class="field">
+    教室 : 
+    <%= form.text_field :room, id: :course_room %>
+  </div>
+
+  <div class="field">
+    限选人数 : 
+    <%= form.number_field :max_num, id: :course_max_num %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit value:"确定"%>
+  </div>
+ 
+<% end %>
