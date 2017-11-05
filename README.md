@@ -41,7 +41,7 @@
 
 <img src="/lib/06.png">
 
-课程修改成功
+修改限选人数
 <img src="/lib/07.png">
 
 4. 删除课程
