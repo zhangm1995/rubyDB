@@ -21,7 +21,7 @@
     rails s
 ```
 
-##在浏览器中访问  (http://localhost:3000/courses)
+## 在浏览器中输入 (http://localhost:3000/courses)
 
 1. 主界面,显示数据库中的课程信息
 	
