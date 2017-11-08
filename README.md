@@ -2,6 +2,8 @@
 
 以课程为例，ruby on rails实现简单的数据库增删查改，使用postgresql数据库
 
+已经部署到heroku上，点击访问https://zmrubydb.herokuapp.com/courses
+
 ## 打开命令行
 1. 创建一个新项目rubyDB   
 ```
@@ -21,35 +23,35 @@
     rails s
 ```
 
-## 在浏览器中输入 (http://localhost:3000/courses)
+## 在浏览器中输入 (https://zmrubydb.herokuapp.com/courses)
 
 1. 主界面,显示数据库中的课程信息
 	
-<img src="/lib/01.png">
+<img src="/lib/1.png">
 
 2. 创建新课程
 
-<img src="/lib/02.png">
-
 填写课程信息
-<img src="/lib/03.png">
+<img src="/lib/2.png">
 
 课程创建成功
-<img src="/lib/031.png">
+<img src="/lib/3.png">
 
 3. 修改已有课程
 
-<img src="/lib/06.png">
+修改课程名称
+<img src="/lib/4.png">
 
-修改限选人数
-<img src="/lib/07.png">
+修改成功
+<img src="/lib/5.png">
 
 4. 删除课程
 
-<img src="/lib/04.png">
+弹出框提示是否确认删除
+<img src="/lib/6.png">
 
 课程删除成功
-<img src="/lib/05.png">
+<img src="/lib/7.png">
 
 
 
