@@ -1,1 +1,0 @@
-rails generate scaffold Course course_id:text course_name:text course_type:text credit:real class_hour:integer room:text max_num:integer

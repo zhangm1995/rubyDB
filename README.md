@@ -1,6 +1,6 @@
 # README
 
-以课程为例，ruby on rails实现简单的数据库增删查改，使用sqlite数据库
+以课程为例，ruby on rails实现简单的数据库增删查改，使用postgresql数据库
 
 ## 打开命令行
 1. 创建一个新项目rubyDB   
